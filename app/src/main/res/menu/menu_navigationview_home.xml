@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_trangchu_item"
+            android:title="@string/trangchu_navigationview"
+            android:icon="@drawable/ic_home_trangchu_navigation"/>
+        <item android:id="@+id/nav_ds_sv_item"
+            android:title="@string/ds_sv_navigationview"
+            android:icon="@drawable/ic_danhsach_sv_navigation"/>
+        <item android:id="@+id/nav_ds_diem_item"
+            android:title="@string/ds_diem_navigationview"
+            android:icon="@drawable/ic_danhsach_diem_navigation"/>
+    </group>
+
+
+    <item android:title="@string/tai_khoan">
+        <menu>
+            <item android:id="@+id/nav_thongTinAd_item"
+                android:title="@string/thongtin_admin"
+                android:icon="@drawable/ic_thong_tin_admin_navigation"/>
+        </menu>
+    </item>
+
+</menu>
